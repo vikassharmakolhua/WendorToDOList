@@ -1,16 +1,9 @@
-
-**Live**: https://todolistreactexpress.herokuapp.com/
-
-Welcome to TodoList-React-and-Express!
-=====================
-![alt text](https://github.com/musmanraodev/TodoList-React-and-Express/blob/master/TodoList-React-and-Express.png?raw=true)
-
+Welcome to WendorToDO
 
 ## What does it do?  
 Todo-List made In React and Node.js/Express with CRUD Functionality using RESTFUL API, which means you can create/save, read, edit/update, and delete the items from the list which is connected to the database.
 
-## How to use it?  
- - Visit the website 
+## How to use it?   
  - Type something in the input box, then press 'Enter' or click on the 'Add' Button
  - Item will be added to the list, now you will be able to update or delete the item
  - To update the item from the list Click on the 'Edit' icon

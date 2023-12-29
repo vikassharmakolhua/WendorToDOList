@@ -1,7 +1,7 @@
 {
-  "name": "todolistapp",
+  "name": "wendortodo",
   "version": "1.1.1",
-  "description": "To Do List App with React + Database",
+  "description": "To Do List App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   "optionalDependencies": {
     "fsevents": "*"
  },
-  "author": "Muhammad Usman",
+  "author": "Vikas Sharma",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",

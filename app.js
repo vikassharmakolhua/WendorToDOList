@@ -18,12 +18,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "client/build")));
 
-// app.use('/static', express.static(path.join(__dirname, 'public')));
-
-// app.get("/", function(req, res) {
-//   res.sendFile(__dirname + "/public/index.html");
-// });
-
 const todolistRoutes = require("./routes/todolistRoute");
 app.use("/api/todolist", todolistRoutes);
 app.get("/api", function(req, res) {

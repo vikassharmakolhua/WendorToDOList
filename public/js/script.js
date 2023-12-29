@@ -14,33 +14,7 @@
         $(this).removeAttr('data-previndex');
     }
 });
-// function checking() {
-// let orderselect = document.querySelector(`[itemorder=newIndex]`);
-// console.log(orderselect);
-
-// }
-
-  
-
-
- 
-
 });
-// let orderobj = {
-
-// }
-
-// function addinorder(id, order) {
-//   order.obj[id] = order;
-// }
-
-
-  // console.log(e);
-
-
-  // });
-
-
       $(".item").click(function(e){
    
    if ( $( e.target ).is( ".editimgbox, .editimgbox *") ) {
@@ -51,11 +25,6 @@
     $(this).find('input').toggleClass("linet");
    
   });
-
-
-
-
-
 function checkempty() {
   let submitbttn = document.getElementById("thing").value;
   submitbttn = submitbttn.replace(/\s/g, '');
@@ -82,10 +51,6 @@ function editingtext() {
 
   
   } 
-
-
-// }
-
 function delitem(value) {
   let delform = document.getElementById(value.id);
  delform.submit();
